@@ -1,7 +1,7 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/projects/project1.jpg";
+import project2 from "../assets/projects/project22.jpeg";
+import project3 from "../assets/projects/project4.jpg";
+import project4 from "../assets/projects/project3.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications.  I have honed my skills in front-end technologies like React ,Next.js, as well as back-end technologies like Node.js, express,mongoDb. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -18,9 +18,9 @@ export const EXPERIENCES = [
     technologies: ["Javascript", "React.js", "Node.js", "mongoDB"],
   },
   // {
-  //   year: "2022 - 2023",
-  //   role: "Frontend Developer",
-  //   company: "Adobe",
+  //   year: "2024-present",
+  //   role: "Full STACK Developer",
+  //   company: "Ino",
   //   description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
   //   technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
   // },
@@ -42,32 +42,29 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "E-Waste Management",
     image: project1,
-    description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    description:"Developed a comprehensive e-commerce platform that empowers users to buy and sell products, including e-waste, at their convenience. The platform features an intuitive user interface for product listing, secure user authentication, and robust backend systems to manage transactions. By facilitating the responsible disposal and recycling of electronic waste, this project contributes to environmental sustainability and helps keep communities clean.",
+    technologies: [ "CSS", "React", "Node.js","express.js", "MongoDB","ML"],
   },
   {
-    title: "Task Management App",
+    title: "Real-Time Fisheries Monitoring System",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "The application read real-time data from Google Sheets, stored it in a database, and dynamically plotted graphs and constructed tables to visualize the data. Implemented a secure login page and user/admin authentication system to manage access and permissions. Collaborated with stakeholders to define project requirements and timelines, ensuring the delivery of a robust and efficient solution.",
+    technologies: ["React", "Node.js", "Ml", "MongoDB","python"],
   },
   {
-    title: "Portfolio Website",
+    title: "NewsMonkey:Your Daily Diges",
     image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
+    description:"Developed NewsMonkey, an innovative news aggregation platform that provides users with the latest news articles in a concise, 60-word summary format. Users can click on a Show More button to read the full details of each news story, complete with photos. The platform also allows users to filter news by specific categories, ensuring they stay informed about topics that interest them most.",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
   },
   {
-    title: "Blogging Platform",
+    title: "TextUtil-TextManage",
     image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    description:"Developed a versatile text manipulation tool that provides users with a suite of features to efficiently process and transform text. Users can enter a sentence or block of text and apply various operations such as converting to lowercase or uppercase, copying text, clearing text, and removing extra spaces. Additionally, the tool includes a light and dark mode feature to enhance user experience and accessibility",
+    technologies: ["HTML", "CSS", "React", "javaScript"],
   },
 ];
 
@@ -75,4 +72,5 @@ export const CONTACT = {
   address: "10 patia ,ChandraSekharPur , Bhubaneswara ,751016 ",
   phoneNo: "+91 6372304687 ",
   email: "jagatjyotidash3@gmail.com",
+   resume: "../assets/jagatjyotiResume.pdf"
 };

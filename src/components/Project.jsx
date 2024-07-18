@@ -18,8 +18,8 @@ function Project() {
             className="w-full lg:w-1/4">
         <img
          src={project.image}
-         height={150}
-         width={150}
+         height={250}
+         width={250}
           alt={Project.title} 
           className="mb-6 rounded"/>
       </motion.div>

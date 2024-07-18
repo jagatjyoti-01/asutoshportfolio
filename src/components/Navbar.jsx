@@ -3,13 +3,16 @@ import logo from "../assets/download1.png"
 import { FaLinkedin } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import { FaSquareInstagram } from "react-icons/fa6";
-import { FaTwitter } from "react-icons/fa";
+import { FaTwitter,FaFilePdf  } from "react-icons/fa";
 
 
 
 function Navbar() {
   const handleLinkClick = (url) => {
     window.open(url, '_blank'); // Open link in a new tab
+  };
+  const handleResumeClick = () => {
+    window.open('/jagatjyotiResume.pdf', '_blank'); // Open the resume in a new tab or trigger download
   };
   return (
     <nav className='  mb-20 flex item-center justify-between py-6 '>
@@ -25,9 +28,10 @@ function Navbar() {
             <FaGithub onClick={() => handleLinkClick('https://github.com/jagatjyoti-01')} />
             <FaSquareInstagram onClick={() => handleLinkClick('https://www.instagram.com/mr_jyoti_0.1?igsh=OGJjNjk0bTNicXF5')} />
             <FaTwitter onClick={() => handleLinkClick('https://x.com/JagatJyoti_01?t=q-e_pTOlRMhHlEixwJnWoA&s=08')} />
-
+             <FaFilePdf  onClick={() => handleResumeClick()} />
 
         </div>
+        
     </nav>
   )
 }
