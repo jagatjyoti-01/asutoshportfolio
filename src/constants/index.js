@@ -17,13 +17,13 @@ export const EXPERIENCES = [
 .`,
     technologies: ["Javascript", "React.js", "Node.js", "mongoDB"],
   },
-  // {
-  //   year: "2024-present",
-  //   role: "Full STACK Developer",
-  //   company: "Ino",
-  //   description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-  //   technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  // },
+  {
+    year: "2024-july-present",
+    role: "Full STACK Developer",
+    company: "RISE INNOVATION",
+    description: `As a Full Stack Developer at Rise Innovation, I am currently contributing to the development of multiple projects, including G2i, a dynamic learning platform aimed at enhancing the learning experience for users, and Daily Life, a platform designed to streamline job search processes for laborers and workers. These projects, along with several other websites I work on, focus on improving accessibility, functionality, and user experience, empowering individuals to find work opportunities more efficiently`,
+    technologies: ["React", "typescript", "MUI", "Next.js","Node.js",'express.js'],
+  },
   // {
   //   year: "2021 - 2022",
   //   role: "Full Stack Developer",
