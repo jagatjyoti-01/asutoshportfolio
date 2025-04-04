@@ -78,7 +78,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "10  ,rasulgarh , Bhubaneswara ,751010 ",
+  address: "12  ,rasulgarh , Bhubaneswara ,751010 ",
   phoneNo: "+91 9439873583 ",
   email: "asutoshsahu@gmail.com",
    resume: "../assets/jagatjyotiResume.pdf"
