@@ -16,12 +16,15 @@ function Project() {
             initial={{opacity: 0,x:-100}}
             transition={{duration:1}}
             className="w-full lg:w-1/4">
+              <a href={project.link} target="_blank" rel="noopener noreferrer">
         <img
          src={project.image}
          height={250}
          width={250}
           alt={Project.title} 
           className="mb-6 rounded"/>
+          </a>
+          
       </motion.div>
       <motion.div 
       whileInView={{opacity:1,x:0}}

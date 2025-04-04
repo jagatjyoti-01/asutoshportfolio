@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { HERO_CONTENT } from "../constants"
-import profilePic from "../assets/myprofile3.jpg"
+import profilePic from "../assets/asutoshprofile.jpg"
 import { motion } from "framer-motion"
 
 const container =(delay)=>({
@@ -57,7 +57,7 @@ function Hero() {
                                initial="hidden"
                                animate="visible"
 
-                            className='pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl'>Jagat Jyoti</motion.h1>
+                            className='pb-16 text-6xl md:text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl'>Ashutosh Sahu</motion.h1>
                         <motion.span   variants={container(0.5)}
                                initial="hidden"
                                animate="visible" 
