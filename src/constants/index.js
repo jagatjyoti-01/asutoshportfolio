@@ -2,6 +2,10 @@ import project1 from "../assets/projects/project1.png";
 import project2 from "../assets/projects/project2.png";
 import project3 from "../assets/projects/project4.png";
 import project4 from "../assets/projects/project3.png";
+import project5 from "../assets/projects/project5.png";
+import project6 from "../assets/projects/project6.png";
+import project7 from "../assets/projects/project7.png";
+
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications.  I have honed my skills in front-end technologies like React ,Next.js, as well as back-end technologies like Node.js, express,mongoDb. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -75,10 +79,31 @@ export const PROJECTS = [
     description:"Event Management Company is a project where I am responsible for developing and optimizing the website. My work involves creating a dynamic and engaging platform to manage and promote events efficiently. I also focus on implementing content strategies and digital marketing practices to increase audience engagement and reach.",
     technologies: ["HTML", "CSS", "React", "javaScript"],
   },
+  {
+    link:"https://dynamicevents.co.in/index.php",
+    title: "Dynamic Event Production",
+    image: project5,
+    description:"Event Management System is a project where I took charge of designing and developing a comprehensive web application to streamline event planning and coordination. My role involved building features for event creation, registration, scheduling, and real-time updates. I also worked on optimizing the UI/UX for both organizers and attendees, while incorporating social media integration and analytics to boost event visibility and engagement.",
+    technologies: ["Next.js", "CSS", "React", "javaScript"],
+  },
+  {
+    link:"https://www.colorscab.com/",
+    title: "colorscab",
+    image: project6,
+    description:"Car Rental Company Website is a project where I was responsible for developing and optimizing a responsive and user-friendly platform to simplify the car rental process. My work involved creating features like vehicle listings, booking and payment systems, and real-time availability tracking. I also focused on improving the overall user experience, integrating Google Maps for location services, and applying digital marketing strategies to drive traffic and increase customer bookings..",
+    technologies: ["HTML", "CSS", "React", "javaScript","Node.js"],
+  },
+  {
+    link:"https://www.homex.com.sg/",
+    title: "homex",
+    image: project7,
+    description:"Home Design & Décor Website is a project where I developed an aesthetically pleasing and interactive platform to showcase interior design ideas and home décor solutions. My role included creating visually rich galleries, implementing filtering options by room or style, and optimizing the site for performance and SEO. I also worked on integrating customer testimonials, design blogs, and contact forms to enhance user engagement and drive inquiries.",
+    technologies: [ "CSS", "React", "javaScript","MongoDb"],
+  },
 ];
 
 export const CONTACT = {
-  address: "12  ,rasulgarh , Bhubaneswara ,751010 ",
+  address: ", Laxmisagar, Bhubaneswar,Odisha 751006",
   phoneNo: "+91 9439873583 ",
   email: "asutoshsahu@gmail.com",
    resume: "../assets/jagatjyotiResume.pdf"
