@@ -12,7 +12,7 @@ function Navbar() {
     window.open(url, '_blank'); // Open link in a new tab
   };
   const handleResumeClick = () => {
-    window.open('/portfolioasutosh.pdf', '_blank'); // Open the resume in a new tab or trigger download
+    window.open('/portfolioashutoshh.pdf', '_blank'); // Open the resume in a new tab or trigger download
   };
   return (
     <nav className='  mb-20 flex item-center justify-between py-6 '>

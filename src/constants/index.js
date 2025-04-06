@@ -105,6 +105,6 @@ export const PROJECTS = [
 export const CONTACT = {
   address: ", Laxmisagar, Bhubaneswar,Odisha 751006",
   phoneNo: "+91 9439873583 ",
-  email: "asutoshsahu@gmail.com",
+  email: "thisisashutoshsahu@gmail.com",
    resume: "../assets/jagatjyotiResume.pdf"
 };
