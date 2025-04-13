@@ -127,7 +127,7 @@ export const PROJECTS = [
     title: "TwinCity Infra Project",
     image: project11,
     description:" At TwinCity Infra Project, I executed Google and Meta ad campaigns aimed at generating leads for flat sales. I developed and managed performance-driven strategies to target potential homebuyers, designed compelling ad creatives, and optimized campaigns for maximum ROI. These efforts resulted in a steady flow of qualified leads, improved engagement, and contributed to increased flat bookings and brand visibility.",
-    technologies: [ " Google and Meta ad campaigns"],
+    technologies: [ " Google & Meta ad campaigns"],
   },
   {
     link:"https://theadventurehotels.com/adventure-convention-and-resort.html",
