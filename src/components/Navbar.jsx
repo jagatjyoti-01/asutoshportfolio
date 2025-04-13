@@ -8,9 +8,9 @@ import { FaSquareUpwork } from "react-icons/fa6";
 
 
 function Navbar() {
-  const handleLinkClick = (url) => {
-    window.open(url, '_blank'); // Open link in a new tab
-  };
+  // const handleLinkClick = (url) => {
+  //   window.open(url, '_blank'); // Open link in a new tab
+  // };
   const handleResumeClick = () => {
     window.open('/portfolioashutoshh.pdf', '_blank'); // Open the resume in a new tab or trigger download
   };
@@ -28,7 +28,7 @@ function Navbar() {
             <FaGithub onClick={() => handleLinkClick('https://github.com/jagatjyoti-01')} />
             <FaSquareInstagram onClick={() => handleLinkClick('https://www.instagram.com/mr_jyoti_0.1?igsh=OGJjNjk0bTNicXF5')} />
             <FaTwitter onClick={() => handleLinkClick('https://x.com/JagatJyoti_01?t=q-e_pTOlRMhHlEixwJnWoA&s=08')} /> */}
-            <FaSquareUpwork onClick={() => handleLinkClick('https://www.upwork.com/freelancers/~0194a0095c4b336955')} />
+            {/* <FaSquareUpwork onClick={() => handleLinkClick('https://www.upwork.com/freelancers/~0194a0095c4b336955')} /> */}
              <FaFilePdf  onClick={() => handleResumeClick()} />
 
         </div>

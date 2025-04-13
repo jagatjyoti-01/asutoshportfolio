@@ -5,15 +5,23 @@ import project4 from "../assets/projects/project3.png";
 import project5 from "../assets/projects/project5.png";
 import project6 from "../assets/projects/project6.png";
 import project7 from "../assets/projects/project7.png";
+import project8 from "../assets/projects/project8.png";
+import project9 from "../assets/projects/project9.png";
+import project10 from "../assets/projects/project10.png";
+import project11 from "../assets/projects/project11.png";
+import project12 from "../assets/projects/project12.png";
 
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications.  I have honed my skills in front-end technologies like React ,Next.js, as well as back-end technologies like Node.js, express,mongoDb. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = ` I’m a Full Stack Developer & Digital Marketer skilled in React, Next.js, Node.js, and MongoDB. I also specialize in Performance Marketing, Social Media Marketing, and SEO. I build scalable web apps and drive lead generation through result-driven strategies—delivering digital solutions that are both technically sound and optimized for growth, user experience, and business impact.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile Full Stack Developer with a passion for crafting efficient, user-friendly web applications. My expertise spans a wide range of technologies, including React, Next.js, Node.js, MySQL, and MongoDB. My journey in web development started with a deep curiosity about how things work, evolving into a career where I continuously embrace new challenges and learn from them.
+export const ABOUT_TEXT = `I am a dedicated and versatile Full Stack Developer with a passion for building efficient, user-friendly web applications. My technical expertise includes React, Next.js, Node.js, MySQL, and MongoDB. What started as a curiosity about how websites function has grown into a fulfilling career where I continuously take on new challenges and strive to improve my skills.
+.
 
-In addition to my development skills, I am a digital marketing and web development expert with 3 years of experience in SEO, PPC, Social Media, Content Marketing, and Website Development. I specialize in helping businesses generate leads, increase conversions, and enhance their online presence.
+IIn addition to development, I have over 3 years of experience in Digital Marketing and Web Development. I specialize in SEO, PPC, Social Media Marketing, Content Marketing, and Website Development, helping businesses generate qualified leads, increase conversions, and build a strong online presence.
+.
 
-I thrive in collaborative environments, where problem-solving and innovation are key. I am driven by the pursuit of high-quality solutions and enjoy working on projects that make a real impact. Beyond coding, I stay active, explore emerging technologies, and contribute to open-source communities..`;
+I thrive in collaborative, fast-paced environments where innovation and problem-solving are essential. I am committed to delivering high-quality, impactful digital solutions that align with business goals. Beyond work, I stay updated with emerging tech trends and actively contribute to open-source projects, fueling my passion for continuous learning and growth.
+`;
 
 export const EXPERIENCES = [
   {
@@ -100,10 +108,45 @@ export const PROJECTS = [
     description:"Home Design & Décor Website is a project where I developed an aesthetically pleasing and interactive platform to showcase interior design ideas and home décor solutions. My role included creating visually rich galleries, implementing filtering options by room or style, and optimizing the site for performance and SEO. I also worked on integrating customer testimonials, design blogs, and contact forms to enhance user engagement and drive inquiries.",
     technologies: [ "CSS", "React", "javaScript","MongoDb"],
   },
+  {
+    link:"https://dortrust.com/",
+    title: "Dortrust",
+    image: project8,
+    description:" At Dortrust, a hinges, handles, and lock manufacturing company, I managed social media marketing and performance campaigns to generate leads and boost sales. My focus was on targeting wholesalers and dealers through Meta and Google Ads, creating high-converting ad creatives, and optimizing campaign performance. These efforts resulted in increased inquiries, stronger brand visibility, and a steady growth in wholesale orders and conversions.",
+    technologies: [ "social media marketing and performance campaigns"],
+  },
+  {
+    link:"#",
+    title: "Kedge RealEstate",
+    image: project10,
+    description:"  At Kedge RealEstate, I managed Google and Meta ad campaigns focused on lead generation for plot sales. My role involved creating targeted performance marketing strategies to attract potential buyers, optimize ad creatives for higher conversions, and monitor campaign performance. These efforts led to a consistent increase in inquiries, improved lead quality, and helped drive overall sales growth for the real estate business.",
+    technologies: [ "Google and Meta ad campaigns"],
+  },
+  {
+    link:"#",
+    title: "TwinCity Infra Project",
+    image: project11,
+    description:" At TwinCity Infra Project, I executed Google and Meta ad campaigns aimed at generating leads for flat sales. I developed and managed performance-driven strategies to target potential homebuyers, designed compelling ad creatives, and optimized campaigns for maximum ROI. These efforts resulted in a steady flow of qualified leads, improved engagement, and contributed to increased flat bookings and brand visibility.",
+    technologies: [ " Google and Meta ad campaigns"],
+  },
+  {
+    link:"https://theadventurehotels.com/adventure-convention-and-resort.html",
+    title: "The Adventure Convention and Resort",
+    image: project9,
+    description:"At The Adventure Convention and Resort, I managed and optimized the brand’s presence across Facebook, Instagram, LinkedIn, and Google Business Profile to enhance brand awareness and audience engagement. I developed a consistent content strategy, created visually appealing posts, and ensured regular updates to reflect the brand’s premium identity. In addition, I ran targeted Meta ad campaigns to increase reach, attract potential guests, and establish strong brand recall in the hospitality sector.",
+    technologies: [ " Google and Meta ad campaigns"],
+  },
+  {
+    link:"https://www.instagram.com/dr.himanshusekharsahoo/",
+    title: "Dr. Himanshu ",
+    image: project12,
+    description:"For Dr. Himanshu, I handled social media management across Facebook, Instagram, and Google Business Profile to build a strong digital presence and increase brand awareness. I created engaging, informative content tailored to the healthcare audience and ensured regular posting to maintain visibility. Additionally, I ran Meta ad campaigns targeting the right audience to boost reach, improve engagement, and establish trust around Dr. Himanshu's medical services.",
+    technologies: [ "Facebook, Instagram, and Google Business"],
+  },
 ];
 
 export const CONTACT = {
-  address: ", Laxmisagar, Bhubaneswar,Odisha 751006",
+  address: "Bhubaneswar,Odisha 751006",
   phoneNo: "+91 9439873583 ",
   email: "thisisashutoshsahu@gmail.com",
    resume: "../assets/jagatjyotiResume.pdf"
