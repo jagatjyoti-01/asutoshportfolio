@@ -11,7 +11,7 @@ const container =(delay)=>({
         transition:{duration:0.5,delay:delay},
     },
 });
-const roles = ["Full Stack Developer",  "Designer","Coder", "Freelancer", "Photographer"];
+const roles = ["Full Stack Developer","Digital marketer" ,"Coder", "Freelancer", ];
 
 
 function Hero() {
